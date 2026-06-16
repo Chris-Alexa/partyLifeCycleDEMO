@@ -1,0 +1,6 @@
+framework module partyLifeCycleExample {
+  umbrella header "partyLifeCycleExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

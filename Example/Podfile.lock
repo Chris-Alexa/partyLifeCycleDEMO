@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.11.2)
+  - partyLifeCycleExample (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - partyLifeCycleExample (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  partyLifeCycleExample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 400275dd1c6d87d95a041861d2a59da4b520a203
+  partyLifeCycleExample: 3af8b3889d782dd5842d064d725c03b6203c4067
+
+PODFILE CHECKSUM: 0d5b36c83703c82eebf472527d1a8c3b14337086
+
+COCOAPODS: 1.16.2

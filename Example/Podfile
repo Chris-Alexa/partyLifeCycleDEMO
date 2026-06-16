@@ -1,0 +1,22 @@
+use_frameworks!
+
+platform :ios, '15.0'
+
+plugin 'cocoapods-art', :sources => [
+ 'NFMC.cocoapods.Release',
+ 'NFMC.cocoapods-remote',
+ 'CIAM.cocoapods-Snapshot'
+]
+
+target 'partyLifeCycleExample_Example' do
+  pod 'partyLifeCycleExample', :path => '../'
+  pod 'BCPCoreNetwork'
+  pod 'BCPCoreCrypto'
+  pod 'BCPCoreStorage'
+  pod 'BCPOTPVerification'
+
+target 'partyLifeCycleExample_Tests' do
+    inherit! :search_paths
+
+  end
+end
